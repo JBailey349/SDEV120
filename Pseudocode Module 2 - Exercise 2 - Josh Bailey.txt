@@ -1,0 +1,13 @@
+Start
+    Plan: "The Program Determines a Monthly Checking Account Fee"
+    Plan: " Use a Variable to Store The Account Balance If The Account Was Overdrawn. 
+    Print "Enter Account Balance: "
+    Account_Balance = Input
+    Print "Enter The Number Of Times The Account Was Overdrawn: "
+    Overdraft_Event = Input
+    Input Overdrawn_Fee = (Account_Balance * 0.01) - (5 * Overdraft_Event)
+    Input New_Account_Balance = Account_Balance - Overdrawn_Fee
+    Print "Fee Calculated" , Overdrawn_Fee
+    Print "Current Acppunt Balance" , New_Account_Balance
+    Print "Thank You For Using This Program"
+   End 
